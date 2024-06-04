@@ -700,7 +700,7 @@ class Client
                 }
                 break;
             default :
-                echo "unknow cmd: " . print_r($cmd,true);
+                echo "unknow cmd: " . print_r($data,true);
         }
     }
 
